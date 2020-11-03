@@ -26,7 +26,7 @@ function Navbar() {
                    <Link to='/'className='navbar-logo' onClick=
                    {closeMobileMenu}>
                       <img 
-                      src="images/daslogo.png">
+                       src={process.env.PUBLIC_URL + "images/daslogo.png"}>
 
                       </img>
                    </Link>
