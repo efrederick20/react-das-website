@@ -14,10 +14,6 @@ function MainSection(){
             Take Action!
         </h1>
         <div className= "forest-btns">
-        <Button className='btns' buttonStyle='btn--outline' 
-        buttonSize='btn--large'>
-            ADD HOURS
-            </Button>
 
             <Button className='btns' buttonStyle='btn--primary' 
         buttonSize='btn--large' onClick={console.log('hey')}>
