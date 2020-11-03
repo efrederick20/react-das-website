@@ -8,7 +8,7 @@ function MainSection(){
     return (
         <div className= 'main-container'>
  
- <video src="/video/forest.mp4" autoPlay loop muted /> 
+ <video src= {process.env.PUBLIC_URL + "/video/forest.mp4"} autoPlay loop muted/> 
 
         <h1>
             Take Action!
