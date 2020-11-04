@@ -4,8 +4,7 @@ import './Navbar.css';
 import { Button } from './Button'
 import Login  from '../components/login';
 import Logout  from '../components/logout';
-import  LoginHooks from '../components/loginhooks';
-import LogoutHooks from '../components/logouthooks';
+import logo from './daslogo.png';
 
 const responseGoogle =response => {
     console.log(response);
@@ -26,7 +25,7 @@ function Navbar() {
                    <Link to='/'className='navbar-logo' onClick=
                    {closeMobileMenu}>
                       <img 
-                       src={process.env.PUBLIC_URL + "images/daslogo.png"}>
+                       src={logo} alt = 'navbar-logo'>
 
                       </img>
                    </Link>
